@@ -207,134 +207,139 @@ export default function Internships() {
                                         </li>
                                         <li className="mb-2">
                                             2. Registration categories and fees:
-                                            <table className="mt-4 w-full border border-neutral-900/10 bg-white text-left text-sm text-neutral-500">
-                                                <thead className="bg-neutral-500/40 text-center font-semibold text-neutral-900">
-                                                    <tr>
-                                                        <th
-                                                            className="border border-neutral-900/10 px-4 py-3"
-                                                            rowSpan={2}>
-                                                            Academic Category
-                                                        </th>
-                                                        <th
-                                                            className="border border-neutral-900/10 px-4 py-3"
-                                                            rowSpan={2}>
-                                                            Class
-                                                        </th>
-                                                        <th
-                                                            className="border border-neutral-900/10 px-4 py-3"
-                                                            colSpan={2}>
-                                                            Registration Fee
-                                                        </th>
-                                                        <th
-                                                            className="border border-neutral-900/10 px-4 py-3"
-                                                            rowSpan={2}>
-                                                            Fee Waiver
-                                                        </th>
-                                                    </tr>
-                                                    <tr>
-                                                        <th className="border border-neutral-900/10 px-4 py-3">
-                                                            Private Institution
-                                                        </th>
-                                                        <th className="border border-neutral-900/10 px-4 py-3">
-                                                            Government
-                                                            Institution
-                                                        </th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody className="text-center">
-                                                    <tr>
-                                                        <td className="border border-neutral-900/10 px-4 py-2">
-                                                            School
-                                                        </td>
-                                                        <td className="border border-neutral-900/10 px-4 py-2">
-                                                            6–8
-                                                        </td>
-                                                        <td className="border border-neutral-900/10 px-4 py-2">
-                                                            Rs. 501/-
-                                                        </td>
-                                                        <td className="border border-neutral-900/10 px-4 py-2">
-                                                            Rs. 101/-
-                                                        </td>
-                                                        <td className="border border-neutral-900/10 px-4 py-2">
-                                                            Only for students
-                                                            from Government
-                                                            Schools
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td className="border border-neutral-900/10 px-4 py-2">
-                                                            School
-                                                        </td>
-                                                        <td className="border border-neutral-900/10 px-4 py-2">
-                                                            9 & 10 (Higher
-                                                            Secondary)
-                                                        </td>
-                                                        <td className="border border-neutral-900/10 px-4 py-2">
-                                                            Rs. 501/-
-                                                        </td>
-                                                        <td className="border border-neutral-900/10 px-4 py-2">
-                                                            Rs. 101/-
-                                                        </td>
-                                                        <td className="border border-neutral-900/10 px-4 py-2">
-                                                            Only for students
-                                                            from Government
-                                                            Schools
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td className="border border-neutral-900/10 px-4 py-2">
-                                                            College
-                                                        </td>
-                                                        <td className="border border-neutral-900/10 px-4 py-2">
-                                                            11 & 12 (Senior
-                                                            Secondary)
-                                                        </td>
-                                                        <td className="border border-neutral-900/10 px-4 py-2">
-                                                            Rs. 501/-
-                                                        </td>
-                                                        <td className="border border-neutral-900/10 px-4 py-2">
-                                                            Rs. 101/-
-                                                        </td>
-                                                        <td className="border border-neutral-900/10 px-4 py-2">
-                                                            No waiver
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td className="border border-neutral-900/10 px-4 py-2">
-                                                            College
-                                                        </td>
-                                                        <td className="border border-neutral-900/10 px-4 py-2">
-                                                            UG
-                                                        </td>
-                                                        <td className="border border-neutral-900/10 px-4 py-2">
-                                                            Rs. 1001/-
-                                                        </td>
-                                                        <td className="border border-neutral-900/10 px-4 py-2">
-                                                            Rs. 201/-
-                                                        </td>
-                                                        <td className="border border-neutral-900/10 px-4 py-2">
-                                                            No waiver
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td className="border border-neutral-900/10 px-4 py-2">
-                                                            College
-                                                        </td>
-                                                        <td className="border border-neutral-900/10 px-4 py-2">
-                                                            PG
-                                                        </td>
-                                                        <td className="border border-neutral-900/10 px-4 py-2">
-                                                            Rs. 1501/-
-                                                        </td>
-                                                        <td className="border border-neutral-900/10 px-4 py-2">
-                                                            Rs. 501/-
-                                                        </td>
-                                                        <td className="border border-neutral-900/10 px-4 py-2">
-                                                            No waiver
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
+                                            <div className="my-6 w-full overflow-x-auto">
+                                                <table className="w-full min-w-175 border border-neutral-300 bg-white text-sm">
+                                                    <thead className="bg-neutral-200 text-neutral-900">
+                                                        <tr>
+
+                                                            <th
+                                                                rowSpan={2}
+                                                                className="border border-neutral-300 px-4 py-3 text-center font-semibold">
+                                                                Class
+                                                            </th>
+
+                                                            <th
+                                                                colSpan={4}
+                                                                className="border border-neutral-300 px-4 py-3 text-center font-semibold">
+                                                                Registration Fee
+                                                            </th>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <th className="border border-neutral-300 px-4 py-3 text-center">
+                                                                Private
+                                                                Institution
+                                                            </th>
+
+                                                            <th className="border border-neutral-300 px-4 py-3 text-center">
+                                                                Government
+                                                                Institution
+                                                            </th>
+
+                                                            <th className="border border-neutral-300 px-4 py-3 text-center">
+                                                                Partner
+                                                                Institution
+                                                            </th>
+
+                                                            <th className="border border-neutral-300 px-4 py-3 text-center">
+                                                                CAIES Alumni
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+
+                                                    <tbody className="text-center">
+                                                        <tr className="hover:bg-neutral-50">
+                                                            <td className="border border-neutral-300 px-4 py-3">
+                                                                6–8
+                                                            </td>
+                                                            <td className="border border-neutral-300 px-4 py-3">
+                                                                ₹ 201/-
+                                                            </td>
+                                                            <td className="border border-neutral-300 px-4 py-3">
+                                                                ₹ 51/-
+                                                            </td>
+                                                            <td className="border border-neutral-300 px-4 py-3">
+                                                                ₹ 51/-
+                                                            </td>
+                                                            <td className="border border-neutral-300 px-4 py-3">
+                                                                ₹ 51/-
+                                                            </td>
+                                                        </tr>
+
+                                                        <tr className="hover:bg-neutral-50">
+                                                            <td className="border border-neutral-300 px-4 py-3">
+                                                                9–10
+                                                            </td>
+                                                            <td className="border border-neutral-300 px-4 py-3">
+                                                                ₹ 301/-
+                                                            </td>
+                                                            <td className="border border-neutral-300 px-4 py-3">
+                                                                ₹ 51/-
+                                                            </td>
+                                                            <td className="border border-neutral-300 px-4 py-3">
+                                                                ₹ 51/-
+                                                            </td>
+                                                            <td className="border border-neutral-300 px-4 py-3">
+                                                                ₹ 51/-
+                                                            </td>
+                                                        </tr>
+
+                                                        <tr className="hover:bg-neutral-50">
+                                                            <td className="border border-neutral-300 px-4 py-3">
+                                                                11–12
+                                                            </td>
+                                                            <td className="border border-neutral-300 px-4 py-3">
+                                                                ₹ 301/-
+                                                            </td>
+                                                            <td className="border border-neutral-300 px-4 py-3">
+                                                                ₹ 51/-
+                                                            </td>
+                                                            <td className="border border-neutral-300 px-4 py-3">
+                                                                ₹ 51/-
+                                                            </td>
+                                                            <td className="border border-neutral-300 px-4 py-3">
+                                                                ₹ 51/-
+                                                            </td>
+                                                        </tr>
+
+                                                        <tr className="hover:bg-neutral-50">
+                                                            <td className="border border-neutral-300 px-4 py-3">
+                                                                Undergraduate
+                                                            </td>
+                                                            <td className="border border-neutral-300 px-4 py-3">
+                                                                ₹ 501/-
+                                                            </td>
+                                                            <td className="border border-neutral-300 px-4 py-3">
+                                                                ₹ 101/-
+                                                            </td>
+                                                            <td className="border border-neutral-300 px-4 py-3">
+                                                                ₹ 101/-
+                                                            </td>
+                                                            <td className="border border-neutral-300 px-4 py-3">
+                                                                ₹ 101/-
+                                                            </td>
+                                                        </tr>
+
+                                                        <tr className="hover:bg-neutral-50">
+                                                            <td className="border border-neutral-300 px-4 py-3">
+                                                                Postgraduate
+                                                            </td>
+                                                            <td className="border border-neutral-300 px-4 py-3">
+                                                                ₹ 1001/-
+                                                            </td>
+                                                            <td className="border border-neutral-300 px-4 py-3">
+                                                                ₹ 201/-
+                                                            </td>
+                                                            <td className="border border-neutral-300 px-4 py-3">
+                                                                ₹ 201/-
+                                                            </td>
+                                                            <td className="border border-neutral-300 px-4 py-3">
+                                                                ₹ 201/-
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
                                         </li>
                                         <li className="mb-2">
                                             3. All internship opportunities are
