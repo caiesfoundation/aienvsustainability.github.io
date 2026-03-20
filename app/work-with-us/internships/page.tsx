@@ -211,7 +211,6 @@ export default function Internships() {
                                                 <table className="w-full min-w-175 border border-neutral-300 bg-white text-sm">
                                                     <thead className="bg-neutral-200 text-neutral-900">
                                                         <tr>
-
                                                             <th
                                                                 rowSpan={2}
                                                                 className="border border-neutral-300 px-4 py-3 text-center font-semibold">
@@ -219,7 +218,7 @@ export default function Internships() {
                                                             </th>
 
                                                             <th
-                                                                colSpan={4}
+                                                                colSpan={5}
                                                                 className="border border-neutral-300 px-4 py-3 text-center font-semibold">
                                                                 Registration Fee
                                                             </th>
@@ -244,6 +243,9 @@ export default function Internships() {
                                                             <th className="border border-neutral-300 px-4 py-3 text-center">
                                                                 CAIES Alumni
                                                             </th>
+                                                            <th className="border border-neutral-300 px-4 py-3 text-center">
+                                                                Gurukul
+                                                            </th>
                                                         </tr>
                                                     </thead>
 
@@ -264,6 +266,9 @@ export default function Internships() {
                                                             <td className="border border-neutral-300 px-4 py-3">
                                                                 ₹ 51/-
                                                             </td>
+                                                            <td className="border border-neutral-300 px-4 py-3">
+                                                                Free
+                                                            </td>
                                                         </tr>
 
                                                         <tr className="hover:bg-neutral-50">
@@ -281,6 +286,9 @@ export default function Internships() {
                                                             </td>
                                                             <td className="border border-neutral-300 px-4 py-3">
                                                                 ₹ 51/-
+                                                            </td>
+                                                            <td className="border border-neutral-300 px-4 py-3">
+                                                                Free
                                                             </td>
                                                         </tr>
 
@@ -300,6 +308,9 @@ export default function Internships() {
                                                             <td className="border border-neutral-300 px-4 py-3">
                                                                 ₹ 51/-
                                                             </td>
+                                                            <td className="border border-neutral-300 px-4 py-3">
+                                                                Free
+                                                            </td>
                                                         </tr>
 
                                                         <tr className="hover:bg-neutral-50">
@@ -318,6 +329,9 @@ export default function Internships() {
                                                             <td className="border border-neutral-300 px-4 py-3">
                                                                 ₹ 101/-
                                                             </td>
+                                                            <td className="border border-neutral-300 px-4 py-3">
+                                                                Free
+                                                            </td>
                                                         </tr>
 
                                                         <tr className="hover:bg-neutral-50">
@@ -335,6 +349,9 @@ export default function Internships() {
                                                             </td>
                                                             <td className="border border-neutral-300 px-4 py-3">
                                                                 ₹ 201/-
+                                                            </td>
+                                                            <td className="border border-neutral-300 px-4 py-3">
+                                                                Free
                                                             </td>
                                                         </tr>
                                                     </tbody>
