@@ -267,7 +267,7 @@ export default function Internships() {
                                                                 ₹ 51/-
                                                             </td>
                                                             <td className="border border-neutral-300 px-4 py-3">
-                                                                Free
+                                                                ₹ 1/-
                                                             </td>
                                                         </tr>
 
@@ -288,7 +288,7 @@ export default function Internships() {
                                                                 ₹ 51/-
                                                             </td>
                                                             <td className="border border-neutral-300 px-4 py-3">
-                                                                Free
+                                                                ₹ 1/-
                                                             </td>
                                                         </tr>
 
@@ -309,7 +309,7 @@ export default function Internships() {
                                                                 ₹ 51/-
                                                             </td>
                                                             <td className="border border-neutral-300 px-4 py-3">
-                                                                Free
+                                                                ₹ 1/-
                                                             </td>
                                                         </tr>
 
@@ -330,7 +330,7 @@ export default function Internships() {
                                                                 ₹ 101/-
                                                             </td>
                                                             <td className="border border-neutral-300 px-4 py-3">
-                                                                Free
+                                                                ₹ 1/-
                                                             </td>
                                                         </tr>
 
@@ -351,7 +351,7 @@ export default function Internships() {
                                                                 ₹ 201/-
                                                             </td>
                                                             <td className="border border-neutral-300 px-4 py-3">
-                                                                Free
+                                                                ₹ 1/-
                                                             </td>
                                                         </tr>
                                                     </tbody>
