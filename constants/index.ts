@@ -117,6 +117,7 @@ export const footerLinks: FooterSection[] = [
             },
             { href: "/initiatives/research-academy", text: "Research Academy" },
             { href: "/initiatives/ai-yoddha", text: "AI Yoddha" },
+            { href: "/initiatives/events", text: "Events" },
         ],
     },
     {
@@ -529,11 +530,11 @@ export const aboutcards: AboutCard[] = [
 
 export const counters: CounterItem[] = [
     { icon: BiDollar, value: "1000", label: "Sponsored" },
-    { icon: BsEmojiSmile, value: "10", label: "Scholars Around The World" },
-    { icon: SlPeople, value: "250", label: "People Impacted" },
+    { icon: BsEmojiSmile, value: "30+", label: "Scholars Around The World" },
+    { icon: SlPeople, value: "300+", label: "People Impacted" },
     {
         icon: HiOutlineChatBubbleLeftRight,
-        value: "10",
+        value: "30+",
         label: "Intellectual Support",
     },
 ]
@@ -631,6 +632,30 @@ export const eventdetails: EventDetails[] = [
         location: "West Bengal, Bharat",
         description: "Dr. Sushant Kumar Singh was invited as a Keynote Speaker at the International Conference on Frontiers in Surface Engineering and Additive Manufacturing (FSEAM), jointly organized by IIT Kharagpur and BIT Mesra.His address highlighted the convergence of AI, advanced manufacturing, and sustainable engineering.",
         image: "/assets/img/fseam.png"
+    },
+    {
+        id: 12,
+        title: "Dr. Singh presented research work on \“Machine Learning-Enhanced Composite Vulnerability Framework for Assessing Social Vulnerability to Changing Mountain Hydrology\” at the Geological Society of America Penrose Conference in Dhulikhel, Nepal",
+        year: "2026",
+        location: "Nepal",
+        description: "Dr. Sushant Kumar Singh presented his research on \“Machine Learning-Enhanced Composite Vulnerability Framework for Assessing Social Vulnerability to Changing Mountain Hydrology\” at the Geological Society of America Penrose Conference in Dhulikhel, Nepal.The presentation showcased how machine learning can enhance vulnerability assessments in the context of changing mountain hydrology, contributing to global discussions on climate resilience and sustainable water management.",
+        image: "/assets/img/event-penrose.jpeg"
+    },
+    {
+        id: 13,
+        title: "Dr. Singh conducted a one-day workshop on \“Artificial Intelligence for Innovation, Sustainability, and Responsible Transformation,\” organized by the Department of Computer Science & Engineering (CSE) at Dr. C. V. Raman University, Vaishali, Bihar",
+        year: "2026",
+        location: "Bihar, Bharat",
+        description: "Dr. Sushant Kumar Singh conducted a one-day workshop on \“Artificial Intelligence for Innovation, Sustainability, and Responsible Transformation,\” organized by the Department of Computer Science & Engineering (CSE) at Dr. C. V. Raman University, Vaishali, Bihar.The workshop provided participants with hands-on experience in AI applications for sustainable development, ethical AI practices, and innovative problem-solving approaches.",
+        image: "/assets/img/event-cvraman.jpeg"
+    },
+    {
+        id: 14,
+        title: "Dr. Singh presented workshop proposal on “Artificial Intelligence for Sustainability Problem-Solving: A Model for Practitioners”, at the International Conference on Sustainable Development(ICSD 2026), Vietnam",
+        year: "2026",
+        location: "Vietnam",
+        description: "Dr. Sushant Kumar Singh presented a workshop proposal on “Artificial Intelligence for Sustainability Problem-Solving: A Model for Practitioners” at the International Conference on Sustainable Development(ICSD 2026), Vietnam.",
+        image: "/assets/img/event-icsd.jpeg"
     }
 ]
 

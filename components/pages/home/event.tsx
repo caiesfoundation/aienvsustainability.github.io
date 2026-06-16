@@ -60,7 +60,7 @@ const Event = () => {
                                                     {event.title}
                                                 </h2>
                                                 <div className="my-2 flex gap-4">
-                                                    <p className="flex items-center gap-1 text-center text-xs text-neutral-500/50 uppercase">
+                                                    <p className="flex items-center gap-1 text-center font-mono text-xs text-neutral-500/50 uppercase">
                                                         <SlCalender className="text-primary" />{" "}
                                                         {event.year}
                                                     </p>

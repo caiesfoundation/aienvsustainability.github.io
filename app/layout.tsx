@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { circularSans, dilemmaSans, poppins, satoshi } from "@/lib/fonts";
+import { circularSans, monoFont, dilemmaSans, poppins, satoshi } from "@/lib/fonts";
 import Footer from "@/components/navigation/footer";
 import AutoDialog from "@/components/ui/auto-dialog";
 import Preloader from "@/components/ui/preloader";
@@ -64,9 +64,9 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="en">
+        <html lang="en" suppressHydrationWarning>
             <body
-                className={`${poppins.variable} ${satoshi.variable} ${dilemmaSans.variable} ${circularSans.variable} scroll-smooth bg-neutral-50 w-full overflow-x-hidden antialiased`}>
+                className={`${poppins.variable} ${satoshi.variable} ${monoFont.variable} ${dilemmaSans.variable} ${circularSans.variable} scroll-smooth outline-none bg-neutral-50 w-full overflow-x-hidden antialiased`} suppressHydrationWarning>
                 <Preloader duration={2000} />
                 {/* <AutoDialog /> */}
                 <Navbar />

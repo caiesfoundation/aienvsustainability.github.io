@@ -1,10 +1,16 @@
 import localFont from "next/font/local"
-import { Poppins } from "next/font/google";
+import { Poppins, Google_Sans_Code } from "next/font/google";
 
 export const poppins = Poppins({
     weight: ["100", "400", "500", "600", "700", "800", "900"],
     variable: "--font-poppins",
     subsets: ["latin-ext"]
+})
+
+export const monoFont = Google_Sans_Code({
+    weight: ["400", "500", "600", "700", "800"],
+    variable: "--font-mono",
+    subsets: ["latin"]
 })
 
 export const satoshi = localFont({

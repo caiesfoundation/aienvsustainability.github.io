@@ -26,6 +26,7 @@ const navItems: NavItem[] = [
     { label: "Home", href: "/" },
     { label: "About", dropdown: "About Us" },
     { label: "Gallery", href: "/gallery" },
+    { label: "Events", href: "/initiatives/events" },
     { label: "Our Work", dropdown: "Our Work" },
     { label: "Get Involved", dropdown: "Get Involved" },
     { label: "Training & Courses", href: "https://training.caienvsus.org/" },
