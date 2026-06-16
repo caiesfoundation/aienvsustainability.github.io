@@ -635,7 +635,7 @@ export const eventdetails: EventDetails[] = [
     },
     {
         id: 12,
-        title: "Dr. Singh presented research work on \“Machine Learning-Enhanced Composite Vulnerability Framework for Assessing Social Vulnerability to Changing Mountain Hydrology\” at the Geological Society of America Penrose Conference in Dhulikhel, Nepal",
+        title: "Presentation at the Geological Society of America Penrose Conference",
         year: "2026",
         location: "Nepal",
         description: "Dr. Sushant Kumar Singh presented his research on \“Machine Learning-Enhanced Composite Vulnerability Framework for Assessing Social Vulnerability to Changing Mountain Hydrology\” at the Geological Society of America Penrose Conference in Dhulikhel, Nepal.The presentation showcased how machine learning can enhance vulnerability assessments in the context of changing mountain hydrology, contributing to global discussions on climate resilience and sustainable water management.",
@@ -643,7 +643,7 @@ export const eventdetails: EventDetails[] = [
     },
     {
         id: 13,
-        title: "Dr. Singh conducted a one-day workshop on \“Artificial Intelligence for Innovation, Sustainability, and Responsible Transformation,\” organized by the Department of Computer Science & Engineering (CSE) at Dr. C. V. Raman University, Vaishali, Bihar",
+        title: "Workshop on \“Artificial Intelligence for Innovation, Sustainability, and Responsible Transformation,\” organized by the Department of Computer Science & Engineering (CSE) at Dr. C. V. Raman University",
         year: "2026",
         location: "Bihar, Bharat",
         description: "Dr. Sushant Kumar Singh conducted a one-day workshop on \“Artificial Intelligence for Innovation, Sustainability, and Responsible Transformation,\” organized by the Department of Computer Science & Engineering (CSE) at Dr. C. V. Raman University, Vaishali, Bihar.The workshop provided participants with hands-on experience in AI applications for sustainable development, ethical AI practices, and innovative problem-solving approaches.",
@@ -651,7 +651,7 @@ export const eventdetails: EventDetails[] = [
     },
     {
         id: 14,
-        title: "Dr. Singh presented workshop proposal on “Artificial Intelligence for Sustainability Problem-Solving: A Model for Practitioners”, at the International Conference on Sustainable Development(ICSD 2026), Vietnam",
+        title: "Presentation at the International Conference on Sustainable Development(ICSD 2026)",
         year: "2026",
         location: "Vietnam",
         description: "Dr. Sushant Kumar Singh presented a workshop proposal on “Artificial Intelligence for Sustainability Problem-Solving: A Model for Practitioners” at the International Conference on Sustainable Development(ICSD 2026), Vietnam.",
